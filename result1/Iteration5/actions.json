@@ -1,0 +1,50 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP29",
+                "stepName": "Url: computers",
+                "infFile": "t1.inf",
+                "time": 1589317965289
+            },
+            {
+                "stepId": "STEP30",
+                "stepName": "Url: Next &rarr;",
+                "infFile": "t2.inf",
+                "time": 1589317965446
+            },
+            {
+                "stepId": "STEP31",
+                "stepName": "Url: Next &rarr;_2",
+                "infFile": "t3.inf",
+                "time": 1589317965591
+            },
+            {
+                "stepId": "STEP32",
+                "stepName": "Url: Belle",
+                "infFile": "t4.inf",
+                "time": 1589317965741
+            },
+            {
+                "stepId": "STEP33",
+                "stepName": "Submit Data: delete",
+                "infFile": "t5.inf",
+                "time": 1589317965837
+            },
+            {
+                "stepId": "STEP34",
+                "stepName": "Url: 12",
+                "infFile": "t6.inf",
+                "time": 1589317966046
+            },
+            {
+                "stepId": "STEP35",
+                "stepName": "Submit Data: 12_2",
+                "infFile": "t7.inf",
+                "time": 1589317966150
+            }
+        ],
+        "transactions": []
+    }
+]

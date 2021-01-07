@@ -1,0 +1,11 @@
+[t2]
+FileName1=t2.html
+URL1=http://computer-database.gatling.io/computers?p=1
+Total=1
+RequestHeaderFile=t2_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t2_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_2.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

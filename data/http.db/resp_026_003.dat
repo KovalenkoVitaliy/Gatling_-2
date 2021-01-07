@@ -1,0 +1,247 @@
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Computers database</title>
+        <link rel="stylesheet" type="text/css" media="screen" href="/assets/stylesheets/bootstrap.min.css"> 
+        <link rel="stylesheet" type="text/css" media="screen" href="/assets/stylesheets/main.css"> 
+    <script type="text/javascript" src="http://ie.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=DESN7yUKNSk3iC_1PsXCjuet8YOpCmLjj2eV9YYza0XQ2NqelP-nchhRDK5IAbcSyheNYnTDrTLo6TxUI7oXYg" charset="UTF-8"></script></head>
+    <body>
+        
+        <header class="topbar">
+            <h1 class="fill">
+                <a href="/">
+                    Play sample application &mdash; Computer database
+                </a>
+            </h1>
+        </header>
+        
+        <section id="main">
+            
+    
+    <h1>626 computers found</h1>
+
+    
+        <div class="alert-message warning">
+            <strong>Done!</strong> Computer has been deleted
+        </div>
+    
+
+    <div id="actions">
+        
+         
+
+<form action="/computers" method="GET" >
+    
+            <input type="search" id="searchbox" name="f" value="" placeholder="Filter by computer name...">
+            <input type="submit" id="searchsubmit" value="Filter by name" class="btn primary">
+        
+</form>
+
+        
+        <a class="btn success" id="add" href="/computers/new">Add a new computer</a>
+        
+    </div>
+    
+    
+        
+        <table class="computers zebra-striped">
+            <thead>
+                <tr>
+                    
+    <th class="col2 header headerSortUp">
+        <a href="/computers?s=-2">Computer name</a>
+    </th>
+
+                    
+    <th class="col3 header ">
+        <a href="/computers?s=3">Introduced</a>
+    </th>
+
+                    
+    <th class="col4 header ">
+        <a href="/computers?s=4">Discontinued</a>
+    </th>
+
+                    
+    <th class="col5 header ">
+        <a href="/computers?s=5">Company</a>
+    </th>
+
+                </tr>
+            </thead>
+            <tbody>
+
+                
+                        <tr>
+                            <td><a href="/computers/525">ASUS Eee PC 1005PE</a></td>
+                            <td>
+                                01 Jan 2010
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                ASUS
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/17">Apple III Plus111</a></td>
+                            <td>
+                                01 Jan 2001
+                            </td>
+                            <td>
+                                25 Mar 2020
+                            </td>
+                            <td>
+                                Apple Inc.
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/12">Apple III1111</a></td>
+                            <td>
+                                01 Jan 2001
+                            </td>
+                            <td>
+                                22 Mar 2020
+                            </td>
+                            <td>
+                                Thinking Machines
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/10">Apple IIc Plus1111</a></td>
+                            <td>
+                                01 Jan 2001
+                            </td>
+                            <td>
+                                25 Mar 2020
+                            </td>
+                            <td>
+                                Apple Inc.
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/8">Apple IIc111111111</a></td>
+                            <td>
+                                01 Jan 2001
+                            </td>
+                            <td>
+                                25 Mar 2020
+                            </td>
+                            <td>
+                                Apple Inc.
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/7">Apple IIe11111</a></td>
+                            <td>
+                                01 Jan 2001
+                            </td>
+                            <td>
+                                25 Mar 2020
+                            </td>
+                            <td>
+                                Apple Inc.
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/13">Apple Lisa1111111</a></td>
+                            <td>
+                                01 Jan 2001
+                            </td>
+                            <td>
+                                25 Mar 2020
+                            </td>
+                            <td>
+                                Thinking Machines
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/403">Apple Network Serverxxx1111</a></td>
+                            <td>
+                                01 Jan 2001
+                            </td>
+                            <td>
+                                25 Mar 2020
+                            </td>
+                            <td>
+                                Apple Inc.
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/681">Beautiful Computer</a></td>
+                            <td>
+                                30 May 2012
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                ASUS
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/710">Beautiful Computer</a></td>
+                            <td>
+                                30 May 2012
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                ASUS
+                            </td>
+                        </tr>
+                    
+
+            </tbody>
+        </table>
+
+        <div id="pagination" class="pagination">
+            <ul>
+                
+                    <li class="prev disabled">
+                        <a>&larr; Previous</a>
+                    </li>
+                
+                <li class="current">
+                    <a>Displaying 1 to 10 of 626</a>
+                </li>
+                
+                    <li class="next">
+                        <a href="/computers?p=1">Next &rarr;</a>
+                    </li> 
+                
+            </ul>
+        </div>
+        
+    
+
+        
+
+        </section>
+        
+    </body>
+</html>
+
+
+            

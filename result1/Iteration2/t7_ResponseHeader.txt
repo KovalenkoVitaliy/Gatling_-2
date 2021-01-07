@@ -1,0 +1,6 @@
+HTTP/1.1 308 Permanent Redirect
+Location: https://computer-database.gatling.io/computers/745
+Date: Tue, 12 May 2020 21:12:40 GMT
+Content-Length: 18
+Content-Type: text/plain; charset=utf-8
+
